@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>CoreImg.ico</ApplicationIcon>
+    <Authors>Joseph Nannepaga</Authors>
+    <Company>Pauls Entity</Company>
+    <Product>EMS</Product>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoClassLib\DemoClassLib.csproj" />
+  </ItemGroup>
+
+</Project>
